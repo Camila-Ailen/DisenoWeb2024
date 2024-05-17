@@ -1,0 +1,27 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: #666;
+    font-size: 16px;
+    margin: 5px;
+    padding: 0;
+}
+
+nav {
+    background-color: #949494;
+    color: #fff;
+    padding: 5px;
+}
+

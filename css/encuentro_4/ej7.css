@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+main {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    background: #fff;
+}
+
+section, aside {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilos para el menú de navegación horizontal */
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu.horizontal {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+}
+
+.nav-menu.horizontal li {
+    margin: 0 15px;
+}
+
+.nav-menu.horizontal li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.nav-menu.horizontal li a:hover {
+    background-color: #007bff;
+}
+
+/* Estilos para el menú de navegación vertical */
+.nav-menu.vertical {
+    background-color: #444;
+    padding: 10px;
+    width: 200px;
+}
+
+.nav-menu.vertical li {
+    margin-bottom: 10px;
+}
+
+.nav-menu.vertical li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.nav-menu.vertical li a:hover {
+    background-color: #007bff;
+}

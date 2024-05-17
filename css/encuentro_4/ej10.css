@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #814aad;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Navigation Styles */
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.main-nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+.main-nav ul li a:hover {
+    background-color: #6619be;
+}
+
+/* Content Styles */
+.content {
+    padding: 20px 0;
+}
+
+.content article {
+    margin-bottom: 20px;
+}
+
+.content article h2 {
+    color: #814aad;
+    font-size: 1.8em;
+}
+
+.content article p {
+    margin-bottom: 10px;
+}
+
+/* Highlighted Paragraph */
+.highlight {
+    background-color: #ffffcc;
+    padding: 10px;
+    border-left: 5px solid #814aad;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #814aad;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Advanced Selectors */
+.container > header > nav > ul > li > a[href="#"] {
+    font-style: italic;
+}
+
+.content article p:last-child {
+    margin-bottom: 0;
+}
